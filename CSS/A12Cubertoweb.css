@@ -1,0 +1,221 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8ff; 
+    
+    color: #333; 
+    
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .top-section {
+    padding: 20px 0;
+  }
+  
+  .top-section h1 {
+    color: #008080;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .sleepiest-section {
+    background-color: #f0f0ff;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .sleepiest-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+  }
+  
+  .sleepiest-section p {
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .sleepiest-section .tags {
+    font-size: 0.8em;
+    color: #777;
+  }
+  
+  .sleepiest-section img {
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 8px; 
+  }
+  
+  .ulesson-section {
+    background-color: #f0f0ff; 
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .ulesson-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+  }
+  
+  .ulesson-section p {
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .ulesson-section .tags {
+    font-size: 0.8em;
+    color: #777;
+  }
+  
+  .ulesson-section img {
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 8px; 
+  }
+  
+  .genesis-section {
+    background-color: #f0f0ff; 
+    padding: 20px;
+  }
+  
+  .genesis-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+  }
+  
+  .genesis-section p {
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .genesis-section .tags {
+    font-size: 0.8em;
+    color: #777;
+  }
+  
+  .genesis-section img {
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 8px; /* Bordes redondeados */
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  footer h3 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer li {
+    margin-bottom: 5px;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-columns {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-column {
+    flex: 1;
+  }
+  
+  /* Media Queries para hacerlo responsive */
+  @media (max-width: 768px) {
+    .container {
+      width: 95%;
+    }
+  
+    .footer-columns {
+      flex-direction: column;
+    }
+  
+    .footer-column {
+      margin-bottom: 20px;
+    }
+  }
+  
+ .h1-hero {
+  font-size: 5rem;
+  color: turquoise;
+}
+
+.image {
+  /* poner imagen a la derecha */
+  float: right;
+  padding-left:20%;
+  border-radius: 5%;
+}
+
+.container2 {
+display: flex;
+
+}
+
+.text {
+  padding-right: 10%;
+  padding-left:5%;
+}
+
+.text h1 {
+  font-size: 3rem;
+  color: rgb(165, 165, 165);
+}
+
+.h2-hero {
+  font-size: 2rem;
+  color: turquoise;
+}
+.container3 {
+  display: flex;
+  padding-top: 5%;
+}
+
+.image02 {
+  /* poner imagen a la derecha */
+  float: left;
+  padding-right:20%;
+  border-radius: 5%;
+  padding-left: 5%;
+}
+
+.text h1 {
+  font-size: 3rem;
+  color: rgb(165, 165, 165);
+}
+
+.h1-hero {
+  font-size: 5rem;
+  color: turquoise;
+}
+
+.image {
+  /* poner imagen a la derecha */
+  float: right;
+  padding-left:20%;
+  border-radius: 5%;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+}
